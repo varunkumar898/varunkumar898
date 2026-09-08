@@ -1,4 +1,11 @@
 ## Hi there 👋
+## 🔧 Tech Stack
+
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![STM32](https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)
+![ARM Cortex-M](https://img.shields.io/badge/ARM%20Cortex--M-0091BD?style=flat-square&logo=arm&logoColor=white)****
+
 
 <!--
 **varunkumar898/varunkumar898** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
