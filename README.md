@@ -15,7 +15,7 @@ Welcome. I build firmware that works on real hardware.
 Production-ready bare-metal drivers (GPIO, RCC, NVIC, ADC, SPI, I2C). Proves I can read datasheets, 
 write register-level code, and validate on real hardware.
 
-### [ smart-number-plating ][https://github.com/varunkumar898/smart-number-plating]
+### [Smart-number-plating](https://github.com/varunkumar898/smart-number-plating)
 FreeRTOS embedded system with real-time RFID packet handling, mutex-protected state, and 
 deterministic interrupt processing.
 
