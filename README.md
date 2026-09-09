@@ -1,4 +1,40 @@
-## Hi there 👋
+# Varun Kumar — Embedded Systems & Firmware Engineering
+
+Welcome. I build firmware that works on real hardware.
+
+## What I Do
+- **Bare-metal firmware** in Embedded C/C++ for ARM Cortex-M (STM32) and RISC-V
+- **Hardware bring-up**: Peripheral drivers (GPIO, ADC, SPI, I2C, CAN, UART), debugging with oscilloscopes and logic analyzers
+- **Real-time systems**: FreeRTOS task scheduling, thread-safe synchronization, deterministic behavior
+- **Communication protocols**: UART, SPI, I2C, CAN, Modbus RTU/TCP
+- **Cross-functional work**: Hardware schematics, PCB validation, board-level testing, working with hardware teams
+
+## Highlighted Projects
+
+### [STM32F030 Hardware Abstraction Layer](https://github.com/varunkumarjob898/Driver-for-STM32F030x4-x6-x8-xC)
+Production-ready bare-metal drivers (GPIO, RCC, NVIC, ADC, SPI, I2C). Proves I can read datasheets, 
+write register-level code, and validate on real hardware.
+
+### [Smart Number Plating System](https://github.com/varunkumarjob898/smart-number-plating)
+FreeRTOS embedded system with real-time RFID packet handling, mutex-protected state, and 
+deterministic interrupt processing.
+
+## Experience
+- **MindGrow** (Apr–Jun 2026): RISC-V firmware, Docker CI/CD toolchain, Modbus/CAN protocol implementation
+- **MH Cockpit** (Jun–Oct 2025): IoT edge device firmware, sensor validation, hardware-firmware co-integration
+- **TVS Sundram Fasteners** (Jan–Mar 2026): Technical documentation, OEM product CAD
+
+## Skills at a Glance
+Embedded C/C++ · ARM Cortex-M · RISC-V · FreeRTOS · Bare-metal · Debuggers (GDB, OpenOCD, JTAG) · 
+Oscilloscope & Logic Analyzer · Git · Docker · Jenkins · Makefiles · Communication Protocols (UART/SPI/I2C/CAN)
+
+## Get In Touch
+- **Email**: varunkumarjob2004@gmail.com
+- **LinkedIn**: [linkedin.com/in/varun-kumarjob8055](https://linkedin.com/in/varun-kumarjob8055)
+
+---
+
+*Graduating June 2026. Open to embedded systems, firmware, and IoT roles in Chennai and remote.*
 ## 🔧 Tech Stack
 
 ### 💻 Languages & Firmware
