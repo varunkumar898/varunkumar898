@@ -1,366 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Varun Kumar — Embedded Systems & Firmware Engineering</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap');
+# Varun Kumar — Embedded Systems & Firmware Engineering
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+Welcome. I build firmware that works on real hardware.
 
-        :root {
-            --bg: #0f0f0f;
-            --surface: #1a1a1a;
-            --border: #333;
-            --text: #f0f0f0;
-            --text-secondary: #a0a0a0;
-            --accent: #00d9ff;
-        }
+## What I Do
+- **Bare-metal firmware** in Embedded C/C++ for ARM Cortex-M (STM32) and RISC-V
+- **Hardware bring-up**: Peripheral drivers (GPIO, ADC, SPI, I2C, CAN, UART), debugging with oscilloscopes and logic analyzers
+- **Real-time systems**: FreeRTOS task scheduling, thread-safe synchronization, deterministic behavior
+- **Communication protocols**: UART, SPI, I2C, CAN, Modbus RTU/TCP
+- **Cross-functional work**: Hardware schematics, PCB validation, board-level testing, working with hardware teams
 
-        body {
-            background: var(--bg);
-            color: var(--text);
-            font-family: 'Geist', system-ui, -apple-system, sans-serif;
-            line-height: 1.7;
-            font-size: 16px;
-        }
+## Highlighted Projects
 
-        a {
-            color: var(--accent);
-            text-decoration: none;
-            transition: color 0.2s;
-        }
+### [STM32F030 Hardware Abstraction Layer](https://github.com/varunkumarjob898/Driver-for-STM32F030x4-x6-x8-xC)
+Production-ready bare-metal drivers (GPIO, RCC, NVIC, ADC, SPI, I2C). Proves I can read datasheets, 
+write register-level code, and validate on real hardware.
 
-        a:hover {
-            color: #0099cc;
-        }
+### [Smart-number-plating](https://github.com/varunkumar898/smart-number-plating)
+FreeRTOS embedded system with real-time RFID packet handling, mutex-protected state, and 
+deterministic interrupt processing.
 
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 3rem 2rem;
-        }
+## Experience
+- **MindGrow** (Apr–Jun 2026): RISC-V firmware, Docker CI/CD toolchain, Modbus/CAN protocol implementation
+- **MH Cockpit** (Jun–Oct 2025): IoT edge device firmware, sensor validation, hardware-firmware co-integration
+- **TVS Sundram Fasteners** (Jan–Mar 2026): Technical documentation, OEM product CAD
 
-        /* HEADER */
-        header {
-            margin-bottom: 3rem;
-            border-bottom: 1px solid var(--border);
-            padding-bottom: 2rem;
-        }
+## Skills at a Glance
+Embedded C/C++ · ARM Cortex-M · RISC-V · FreeRTOS · Bare-metal · Debuggers (GDB, OpenOCD, JTAG) · 
+Oscilloscope & Logic Analyzer · Git · Docker · Jenkins · Makefiles · Communication Protocols (UART/SPI/I2C/CAN)
 
-        h1 {
-            font-size: 2.2rem;
-            font-weight: 700;
-            margin-bottom: 0.5rem;
-            letter-spacing: -0.02em;
-        }
+## Get In Touch
+- **Email**: varunkumarjob2004@gmail.com
+- **LinkedIn**: [linkedin.com/in/varun-kumarjob8055](https://linkedin.com/in/varun-kumarjob8055)
 
-        .tagline {
-            color: var(--accent);
-            font-size: 1.1rem;
-            font-weight: 500;
-            margin-bottom: 1rem;
-        }
+---
 
-        /* SECTIONS */
-        section {
-            margin-bottom: 3rem;
-        }
+*Graduating June 2026. Open to embedded systems, firmware, and IoT roles in Chennai and remote.*
+## 🔧 Tech Stack
 
-        h2 {
-            font-size: 1.3rem;
-            font-weight: 700;
-            margin-bottom: 1.2rem;
-            padding-bottom: 0.5rem;
-            border-bottom: 1px solid var(--border);
-        }
+### 💻 Languages & Firmware
+![Embedded C](https://img.shields.io/badge/Embedded%20C-00599C?style=flat-square&logo=c&logoColor=white)
+![Embedded C++](https://img.shields.io/badge/Embedded%20C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Bare-Metal](https://img.shields.io/badge/Bare--Metal%20Programming-00599C?style=flat-square)
+![STM32](https://img.shields.io/badge/STM32%20(F0%2F%20H7)-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)
 
-        /* WHAT I DO */
-        .what-i-do ul {
-            list-style: none;
-            padding-left: 0;
-        }
+### ⚙️ Systems & Architecture
+![FreeRTOS](https://img.shields.io/badge/FreeRTOS-16808C?style=flat-square&logo=freertos&logoColor=white)
+![Real-Time Systems](https://img.shields.io/badge/Real--Time%20Systems-00599C?style=flat-square)
+![IoT Systems Design](https://img.shields.io/badge/IoT%20Systems%20Design-129900?style=flat-square)
+![Electrical Engineering](https://img.shields.io/badge/Electrical%20Engineering-00599C?style=flat-square)
 
-        .what-i-do li {
-            margin-bottom: 0.9rem;
-            color: var(--text-secondary);
-            line-height: 1.8;
-            padding-left: 1.5rem;
-            position: relative;
-        }
+### 📡 Protocols & Connectivity
+![I2C / SPI / UART / CAN](https://img.shields.io/badge/Protocols-I2C%20%7C%20SPI%20%7C%20UART%20%7C%20CAN-00599C?style=flat-square)
+![BLE](https://img.shields.io/badge/BLE-0082FC?style=flat-square&logo=bluetooth&logoColor=white)
+![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white)
+![Modbus](https://img.shields.io/badge/Modbus-RTU%20%2F%20TCP-E3120B?style=flat-square)
 
-        .what-i-do li::before {
-            content: '•';
-            position: absolute;
-            left: 0;
-            color: var(--accent);
-            font-weight: bold;
-        }
+### 🎨 Hardware & PCB Design
+![Altium Designer](https://img.shields.io/badge/Altium%20Designer-A5915F?style=flat-square&logo=altiumdesigner&logoColor=white)
+![KiCad](https://img.shields.io/badge/KiCad-31419B?style=flat-square&logo=kicad&logoColor=white)
 
-        /* PROJECTS */
-        .project {
-            margin-bottom: 2.2rem;
-            padding: 1.5rem;
-            background: var(--surface);
-            border-radius: 8px;
-            border: 1px solid var(--border);
-            transition: all 0.3s;
-        }
+### 🛠 Debugging, Tools & DevOps
+![GDB](https://img.shields.io/badge/GDB-003B5C?style=flat-square&logo=gnu&logoColor=white)
+![GCC Toolchain](https://img.shields.io/badge/GCC%20Toolchain-46505A?style=flat-square&logo=gnu&logoColor=white)
+![OpenOCD](https://img.shields.io/badge/OpenOCD-2C3E50?style=flat-square)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+![Microsoft Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
+<!--
+**varunkumar898/varunkumar898** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-        .project:hover {
-            border-color: var(--accent);
-            box-shadow: 0 8px 24px rgba(0, 217, 255, 0.1);
-        }
+Here are some ideas to get you started:
 
-        .project-title {
-            font-size: 1.1rem;
-            font-weight: 600;
-            color: var(--accent);
-            margin-bottom: 0.5rem;
-        }
-
-        .project-title a {
-            color: var(--accent);
-        }
-
-        .project-title a:hover {
-            color: #0099cc;
-        }
-
-        .project-description {
-            color: var(--text-secondary);
-            line-height: 1.8;
-        }
-
-        /* EXPERIENCE */
-        .job {
-            margin-bottom: 1.8rem;
-            padding-left: 1.5rem;
-            border-left: 2px solid var(--accent);
-        }
-
-        .job-title {
-            font-weight: 600;
-            color: var(--text);
-            margin-bottom: 0.3rem;
-        }
-
-        .job-company {
-            color: var(--accent);
-            font-size: 0.95rem;
-            font-weight: 500;
-            margin-bottom: 0.5rem;
-        }
-
-        .job-description {
-            color: var(--text-secondary);
-            line-height: 1.7;
-        }
-
-        /* SKILLS */
-        .skills-text {
-            color: var(--text-secondary);
-            line-height: 1.8;
-            word-wrap: break-word;
-        }
-
-        .skills-text strong {
-            color: var(--text);
-            font-weight: 600;
-        }
-
-        /* CONTACT */
-        .contact-section {
-            background: var(--surface);
-            padding: 2rem;
-            border-radius: 8px;
-            border: 1px solid var(--border);
-        }
-
-        .contact-item {
-            margin-bottom: 1rem;
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-        }
-
-        .contact-item:last-child {
-            margin-bottom: 0;
-        }
-
-        .contact-label {
-            color: var(--text-secondary);
-            min-width: 60px;
-            font-size: 0.9rem;
-        }
-
-        .contact-value {
-            color: var(--accent);
-        }
-
-        .closing-note {
-            color: var(--text-secondary);
-            margin-top: 2rem;
-            padding-top: 1.5rem;
-            border-top: 1px solid var(--border);
-            font-size: 0.95rem;
-            line-height: 1.7;
-        }
-
-        /* RESPONSIVE */
-        @media (max-width: 640px) {
-            .container {
-                padding: 2rem 1rem;
-            }
-
-            h1 {
-                font-size: 1.6rem;
-            }
-
-            h2 {
-                font-size: 1.1rem;
-            }
-
-            .project {
-                padding: 1rem;
-            }
-
-            .contact-item {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-        }
-
-        /* ACCESSIBILITY */
-        *:focus-visible {
-            outline: 2px solid var(--accent);
-            outline-offset: 2px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <!-- HEADER -->
-        <header>
-            <h1>Varun Kumar</h1>
-            <div class="tagline">Embedded Systems & Firmware Engineering</div>
-            <p style="color: var(--text-secondary); margin-top: 1rem;">Welcome. I build firmware that works on real hardware.</p>
-        </header>
-
-        <!-- WHAT I DO -->
-        <section class="what-i-do">
-            <h2>What I Do</h2>
-            <ul>
-                <li>Bare-metal firmware in Embedded C/C++ for ARM Cortex-M (STM32) and RISC-V</li>
-                <li>Hardware bring-up: Peripheral drivers (GPIO, ADC, SPI, I2C, CAN, UART), debugging with oscilloscopes and logic analyzers</li>
-                <li>Real-time systems: FreeRTOS task scheduling, thread-safe synchronization, deterministic behavior</li>
-                <li>Communication protocols: UART, SPI, I2C, CAN, Modbus RTU/TCP</li>
-                <li>Cross-functional work: Hardware schematics, PCB validation, board-level testing, working with hardware teams</li>
-            </ul>
-        </section>
-
-        <!-- HIGHLIGHTED PROJECTS -->
-        <section>
-            <h2>Highlighted Projects</h2>
-            
-            <div class="project">
-                <div class="project-title">
-                    <a href="https://github.com/varunkumar898/Driver-for-STM32F030x4-x6-x8-xC" target="_blank">STM32F030 Hardware Abstraction Layer</a>
-                </div>
-                <div class="project-description">
-                    Production-ready bare-metal drivers (GPIO, RCC, NVIC, ADC, SPI, I2C). Proves I can read datasheets, write register-level code, and validate on real hardware.
-                </div>
-            </div>
-
-            <div class="project">
-                <div class="project-title">
-                    <a href="https://github.com/varunkumar898/Smart-parking-system" target="_blank">Smart Parking System</a>
-                </div>
-                <div class="project-description">
-                    FreeRTOS embedded system with real-time sensor handling, mutex-protected state, and deterministic interrupt processing. End-to-end IoT solution.
-                </div>
-            </div>
-
-            <div class="project">
-                <div class="project-title">
-                    <a href="https://github.com/varunkumar898/Hand-detection-using-open-cv" target="_blank">Real-Time Hand Detection Pipeline</a>
-                </div>
-                <div class="project-description">
-                    Low-latency computer vision system using OpenCV. Demonstrates embedded vision on resource-constrained hardware with frame-rate optimization.
-                </div>
-            </div>
-        </section>
-
-        <!-- EXPERIENCE -->
-        <section>
-            <h2>Experience</h2>
-            
-            <div class="job">
-                <div class="job-title">Firmware Engineer (Intern)</div>
-                <div class="job-company">MindGrow</div>
-                <div class="job-description">Apr–Jun 2026: RISC-V firmware development, Docker CI/CD toolchain setup, Modbus/CAN protocol implementation</div>
-            </div>
-
-            <div class="job">
-                <div class="job-title">IoT Firmware Developer (Intern)</div>
-                <div class="job-company">MH Cockpit</div>
-                <div class="job-description">Jun–Oct 2025: IoT edge device firmware, sensor integration and validation, hardware-firmware co-integration</div>
-            </div>
-
-            <div class="job">
-                <div class="job-title">Technical Documentation & CAD</div>
-                <div class="job-company">TVS Sundram Fasteners</div>
-                <div class="job-description">Jan–Mar 2026: Technical documentation, OEM product CAD design and validation</div>
-            </div>
-        </section>
-
-        <!-- SKILLS -->
-        <section>
-            <h2>Skills at a Glance</h2>
-            <p class="skills-text">
-                <strong>Languages:</strong> Embedded C/C++ · Assembly<br>
-                <strong>Architectures:</strong> ARM Cortex-M · RISC-V<br>
-                <strong>RTOS & Systems:</strong> FreeRTOS · Bare-metal · Real-time scheduling<br>
-                <strong>Protocols:</strong> UART · SPI · I2C · CAN · Modbus RTU/TCP<br>
-                <strong>Debugging:</strong> GDB · OpenOCD · JTAG · SWD · Oscilloscope · Logic Analyzer<br>
-                <strong>Tools & Infrastructure:</strong> Git · Docker · Jenkins · Makefiles · CMake · VS Code · STM32CubeIDE
-            </p>
-        </section>
-
-        <!-- CONTACT -->
-        <section class="contact-section">
-            <h2 style="border: none; margin-bottom: 1.5rem;">Get In Touch</h2>
-            
-            <div class="contact-item">
-                <div class="contact-label">Email</div>
-                <div class="contact-value">
-                    <a href="mailto:varunvenkat2020@gmail.com">varunvenkat2020@gmail.com</a>
-                </div>
-            </div>
-
-            <div class="contact-item">
-                <div class="contact-label">GitHub</div>
-                <div class="contact-value">
-                    <a href="https://github.com/varunkumar898" target="_blank">github.com/varunkumar898</a>
-                </div>
-            </div>
-
-            <div class="contact-item">
-                <div class="contact-label">LinkedIn</div>
-                <div class="contact-value">
-                    <a href="https://linkedin.com/in/varun-kumarjob8055" target="_blank">linkedin.com/in/varun-kumarjob8055</a>
-                </div>
-            </div>
-
-            <div class="closing-note">
-                Graduating June 2026. Open to embedded systems, firmware, and IoT roles in Chennai and remote. Excited about hardware bring-up, protocol implementation, and working on systems that operate at the edge of performance and reliability.
-            </div>
-        </section>
-    </div>
-</body>
-</html>
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
