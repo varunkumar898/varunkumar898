@@ -1,6 +1,6 @@
 # Varun Kumar 
 
-                                                            Embedded Systems & Firmware Engineering
+Embedded Systems & Firmware Engineering
 
 Welcome. I build firmware that works on real hardware.
 
