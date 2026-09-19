@@ -19,10 +19,6 @@ write register-level code, and validate on real hardware.
 FreeRTOS embedded system with real-time RFID packet handling, mutex-protected state, and 
 deterministic interrupt processing.
 
-## Experience
-- **MindGrow** (Apr–Jun 2026): RISC-V firmware, Docker CI/CD toolchain, Modbus/CAN protocol implementation
-- **MH Cockpit** (Jun–Oct 2025): IoT edge device firmware, sensor validation, hardware-firmware co-integration
-- **TVS Sundram Fasteners** (Jan–Mar 2026): Technical documentation, OEM product CAD
 
 ## Skills at a Glance
 Embedded C/C++ · ARM Cortex-M · RISC-V · FreeRTOS · Bare-metal · Debuggers (GDB, OpenOCD, JTAG) · 
