@@ -21,6 +21,13 @@ FreeRTOS embedded system with real-time RFID packet handling, mutex-protected st
 ## Skills at a Glance
 Embedded C/C++ · ARM Cortex-M · RISC-V · ESP32 · ATtiny · Linux · FreeRTOS · Bare-metal · Debuggers (GDB, OpenOCD, JTAG) · Oscilloscope & Logic Analyzer · Proteus · LTspice · MATLAB · Git · Docker · Jenkins · Makefiles · Communication Protocols (UART/SPI/I2C/CAN/Modbus)
 
+## 📊 GitHub Analytics
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=varunkumar898&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Varun's GitHub Stats" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=varunkumar898&layout=compact&theme=tokyonight&hide_border=true&hide=html,css,javascript" alt="Top Languages" height="170" />
+</p>
+
 ## Get In Touch
 - **Email**: varunkumarjob2004@gmail.com
 - **LinkedIn**: [linkedin.com/in/varun-kumarjob8055](https://linkedin.com/in/varun-kumarjob8055)
